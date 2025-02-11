@@ -1,4 +1,5 @@
 # Виртуальное окружение
+vllm-env/
 venv/
 env/
 .env
@@ -8,6 +9,8 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+legacy/
+
 
 # Дистрибутивы и сборки
 dist/
@@ -43,3 +46,6 @@ Thumbs.db
 .coverage
 htmlcov/
 .pytest_cache/
+
+vllm/
+
